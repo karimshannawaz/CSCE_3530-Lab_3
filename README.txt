@@ -1,5 +1,5 @@
 
-- Karimshan Nawaz (11305835)
+
 - CSCE 3530 Lab 3: Demonstrates TCP 3-way handshake and closing a TCP connection using a client-server architecture.
 
 PLEASE NOTE: when running the program, use "make all" to compile and to run the program,
@@ -37,7 +37,4 @@ Moving over to the client ->
 The server functions the same way as the client in the sense that the 'sendSegment' and 'printAndWrite'
 methods are also present, because both the client and server are sending and receiving TCP segments.
 The server closes its socket connection after the final close acknowledgement from the client.
-
-
-- Karimshan Nawaz
 
